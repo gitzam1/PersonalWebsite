@@ -1,52 +1,25 @@
 body{
-    background-color: hsl(191, 9%, 64%);
+    background-color: rgb(209, 209, 214);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
-/* Title: */
-.title-box{
-    /* border: 1px solid; */
-    display:flex;
-    flex-direction: row;
-    background-color: rgb(209, 209, 214);
-    padding: 50px 50px 50px 80px;
+.top-bar{
+    background-color: rgb(235, 235, 236);
     margin: 0px;
-    width:100%;
+    padding: 1px 0px 1px 20px;
+    font-size: 8px;
+    border: .1px solid rgb(216, 216, 216);
+    /* width:100%; */
 }
 
-.title-info{
-    flex-basis: 70%;
-    color: #3f4144;
-    display:flex;
-    flex-direction:row;
-    justify-content: flex-start;
-}
-
-.title-info h2 {
-    color: #515b68;
-}
-.title-info .text{
-    /* flex-basis: 60%; */
-}
-.title-info .title-image{
-    /* flex-basis: 40%; */
-    padding-right: 50px;
-}
-
-.title-info .title-image img{
-    min-width: 200px;
-    border-radius: 50%;
-}
-
-
-.contact-info{
-    flex-basis: 30%;
-}
 
 #linked-in-tag{
-    max-width: 30px;
+    max-width: 200px;
+    border-radius: 50%;
+    margin: auto;
+
 }
 
 .colorstrip{
@@ -60,23 +33,37 @@ body{
 .divider{
     display:flex;
     flex-direction: row;
+    /* background-color: white; */
+    width: 70%;
+    margin: auto;
 }
 
 .left-box{
     flex-basis: 70%;
-    margin: 10px 0px 10px 40px;
-    padding: 20px;
+    padding: 2px;
+    margin: 10px 10px 10px 40px;
+ 
+    /* background-color: white; */
+
 }
 
 .right-box{
     flex-basis: 30%;
-    margin: 10px 40px 10px 0px;
-    padding: 20px;
+    padding: 2px;
+    margin: 10px 20px 10px 0px;
+    /* background-color: white; */
+
 }
 
 /* Content-Box: */
 .box{
     background-color: rgb(235, 235, 236);
-    padding: 30px;
-    margin: 30px;
+    border-radius: 5px;
+    padding: 15px 25px 15px 25px;
+    margin: 10px 1px 10px 1px;
+}
+
+.box .box-content{
+    display: flex;
+    flex-direction: column;
 }
